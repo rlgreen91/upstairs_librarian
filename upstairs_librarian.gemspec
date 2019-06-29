@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Rachel Green"]
   spec.email         = ["rlgreen91@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = "Source code for Reddit book bot"
+  spec.description   = "Source code for the Reddit book bot used on r/blackreaders"
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -34,4 +34,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest", "~> 5.0"
+  spec.add_development_dependency "rspec", "~> 3.8"
 end
