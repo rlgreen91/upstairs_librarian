@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.goodreads.com/book/title?format=xml&key=<api_key>&title=Ekecorab
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.5.0p0
+      Host:
+      - www.goodreads.com
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - Server
+      Date:
+      - Wed, 03 Jul 2019 04:48:15 GMT
+      Content-Type:
+      - application/xml; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 404 Not Found
+      X-Frame-Options:
+      - ALLOWALL
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - AA0XNZ6EWWQY7T4VDFQ7
+      X-Runtime:
+      - '0.122862'
+      Content-Encoding:
+      - gzip
+      Set-Cookie:
+      - csid=BAhJIhgzMTgtNDc5MDg2My0zNjUxOTMxBjoGRVQ%3D--e3f7c5192a5c5ad15b2b1ff341026009f6e7424c;
+        path=/; expires=Sun, 03 Jul 2039 04:48:15 -0000
+      - locale=en; path=/
+      X-Amz-Rid:
+      - AA0XNZ6EWWQY7T4VDFQ7
+      Vary:
+      - Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA7NJLSrKL7ILSExPVcjLL1FIyy/NS7HRh4gCAP/asqgdAAAA
+    http_version: 
+  recorded_at: Wed, 03 Jul 2019 04:48:16 GMT
+recorded_with: VCR 5.0.0
