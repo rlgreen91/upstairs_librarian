@@ -1,5 +1,4 @@
 require "dotenv/load"
-require "upstairs_librarian/aide"
 require "upstairs_librarian/hold_list"
 require "upstairs_librarian/researcher"
 require "upstairs_librarian/version"

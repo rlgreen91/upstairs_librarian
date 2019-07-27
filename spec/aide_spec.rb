@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-require "upstairs_librarian"
+
+require "upstairs_librarian/aide"
 require "vcr_setup"
 
 RSpec.describe UpstairsLibrarian::Aide do
