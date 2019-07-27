@@ -8,5 +8,7 @@ module UpstairsLibrarian
   # Your code goes here...
 
   # Create our hold list of search terms
-  @hold_list = UpstairsLibrarian::HoldList.instance
+  UpstairsLibrarian::HoldList.instance
+
+
 end
