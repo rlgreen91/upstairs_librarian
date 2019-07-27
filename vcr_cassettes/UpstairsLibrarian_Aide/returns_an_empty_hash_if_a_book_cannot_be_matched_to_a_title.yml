@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - Server
       Date:
-      - Wed, 03 Jul 2019 04:48:15 GMT
+      - Sat, 27 Jul 2019 22:23:54 GMT
       Content-Type:
       - application/xml; charset=utf-8
       Transfer-Encoding:
@@ -41,17 +41,17 @@ http_interactions:
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - AA0XNZ6EWWQY7T4VDFQ7
+      - EA805D2A8PH4CXGTR17M
       X-Runtime:
-      - '0.122862'
+      - '0.077245'
       Content-Encoding:
       - gzip
       Set-Cookie:
-      - csid=BAhJIhgzMTgtNDc5MDg2My0zNjUxOTMxBjoGRVQ%3D--e3f7c5192a5c5ad15b2b1ff341026009f6e7424c;
-        path=/; expires=Sun, 03 Jul 2039 04:48:15 -0000
+      - csid=BAhJIhg3NDItMTUzNzEyMS0wNjgyMTQ2BjoGRVQ%3D--f738bffa3f613fecfa57e672a30baefac54b009e;
+        path=/; expires=Wed, 27 Jul 2039 22:23:54 -0000
       - locale=en; path=/
       X-Amz-Rid:
-      - AA0XNZ6EWWQY7T4VDFQ7
+      - EA805D2A8PH4CXGTR17M
       Vary:
       - Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
     body:
@@ -59,5 +59,5 @@ http_interactions:
       string: !binary |-
         H4sIAAAAAAAAA7NJLSrKL7ILSExPVcjLL1FIyy/NS7HRh4gCAP/asqgdAAAA
     http_version: 
-  recorded_at: Wed, 03 Jul 2019 04:48:16 GMT
+  recorded_at: Sat, 27 Jul 2019 22:23:54 GMT
 recorded_with: VCR 5.0.0
