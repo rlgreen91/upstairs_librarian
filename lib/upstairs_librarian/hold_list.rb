@@ -7,7 +7,7 @@ module UpstairsLibrarian
     include Singleton
 
     def initialize
-      @list = Queue.new
+      @list = Array.new
     end
 
     def push(item:)
@@ -15,7 +15,7 @@ module UpstairsLibrarian
     end
 
     def pop
-      @list.pop
+      @list.shift
     end
   end
 end

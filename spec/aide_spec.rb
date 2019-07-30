@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-
 require "upstairs_librarian/aide"
 require "vcr_setup"
 
